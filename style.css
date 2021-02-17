@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+  font: 1em sans-serif;
+}
+
+.select {
+  text-align: center;
+}
+
+.select input {
+  background-color: white;
+  padding: 5px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.sectionwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.colorbox {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(231, 136, 136);
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.colorwrapper {
+  margin: 30px;
+}
